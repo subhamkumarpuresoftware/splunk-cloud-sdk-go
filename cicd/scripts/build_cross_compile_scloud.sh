@@ -17,8 +17,8 @@ else
 
 fi
 
-BUILD_TARGETS_ARCH=( 386 amd64 arm64 )
-BUILD_TARGETS_OS=( darwin linux windows )
+BUILD_TARGETS_ARCH=( arm64 )
+BUILD_TARGETS_OS=( linux )
 TARGET_ROOT_DIR=bin/cross-compiled_scloud
 ARCHIVE_DIR=${TARGET_ROOT_DIR}/archive
 TAG=$(git describe --abbrev=0 --tags)
